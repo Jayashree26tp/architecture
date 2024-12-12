@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+    .header{
+    width: 100%;
+    height: 98vh;
+    background-image: linear-gradient(rgba(4,1,30,0.3),rgba(4,1,30,0.3)),url(handa.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    .Architect{
+        font-size: 2em;
+        color: #fff;
+        user-select: none;
+    }
+    nav{
+        height: 6vh;
+        display: flex;
+        padding: 4% 4%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        width: 250px;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        text-align: right;
+    }
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size:20px; 
+        text-transform: uppercase;   
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #009688;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;   
+    }
+    .text-box{
+        width: 80%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 52px;
+    }
+    .text-box p{
+        margin: -10px 0 5px;
+        font-size: 18px;
+        color: #fff;
+    }
+    nav.fa{
+        display:none;
+    }
+    @media(max-width: 700px){
+        .text-box h1{
+            font-size: 30px;
+        }    
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        background: #009688;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+        nav.fa{
+         display: block;
+            color: #fff;
+            margin: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .nav-links ul{
+            padding: 30px;
+        }
+    }
+    /*------idex2 page------*/
+    .back-video{
+        background-position;
+        background-size: cover;
+        position: absolute;
+    }
+      
+    /*------about us page----------*/
+    
+    .sub-header{
+        height: 65vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,1,30,0.3),rgba(4,1,30,0.3)),url(residential.jpeg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+    }
+    .sub-header h1{
+        margin-top: 65px;
+        font-size: 52px;
+        text-decoration-line: underline;
+    }
+    .about-us h1{
+        font-size: 35px;
+        height: 5vh;
+        text-decoration-line: underline;
+    }
+    .about-us p{
+        font-size: 22px;
+    }
+    .r p{
+        font-size: 25px;
+        text-align: justify;    
+        color: #B22222;
+    }
+    .row1{
+        font-size: 22px;
+        color: #000000;
+    }
+    /*------categories of buildings page----------*/
+    .sub-header1{
+        height: 65vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,1,30,0.3),rgba(4,1,30,0.3)),url(tree.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+    }
+    .sub-header1 h1{
+        margin-top: 65px;
+        text-decoration-line: underline;
+        font-size: 52px;
+    }
+    .c-b h1{
+        font-size: 35px;
+        height: 5vh;
+        text-decoration-line: underline;
+    }
+    .c-b p{
+         font-size: 22px;
+    }
+    .common{
+        font-size: 22px;
+        text-align: justify;
+    }
+    /*------ Categories Of Resindential Buildings content page----------*/  
+    .sub-header2{
+        height: 65vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,1,30,0.6),rgba(4,-9,30,0.6)),url(residential\ 4.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #ffff;
+    }
+    
+    .Architect{
+        font-size: 2em;
+        color: #fff;
+        user-select: none;
+    }
+
+    .sub-header2 h1{
+        margin-top: 65px;
+        font-size: 52px;
+        text-decoration-line: underline;
+    }
+    .a{
+        text-align: justify;
+    }
+    
+    
+    .slider-box{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #slider{
+        width: 100%;
+        display: inline-flex;
+        transition: 0.7s;
+    }
+    
+    #slider img{
+        width:100%;
+    }
+    .slide{
+         position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+    }
+    
+    .slide #btn1{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgba(4,9,30,0.7);
+        cursor: pointer;
+        
+    }
+    #btn2{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgba(4,9,30,0.7);
+        cursor: pointer;
+        
+    }
+    #btn3{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgba(4,9,30,0.7);
+        cursor: pointer;
+        
+    }
+    #btn4{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: rgba(4,9,30,0.7);
+        cursor: pointer;
+        
+    }
+    .active{
+        background: #ffd700 !important;
+    }
+    
+    /*------- Categories Of Commercial Buildings content -------*/
+    .sub-header3{
+    height: 65vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,-9,30,0.6),rgba(4,-9,30,0.6)),url(commercial1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    }
+    .Architect{
+        font-size: 2em;
+        color: #fff;
+        user-select: none;
+    }
+    .sub-header3 h1{
+        margin-top: 65px;
+        font-size: 52px;
+        text-decoration-line: underline;
+    }
+    .a{
+        text-align: justify;
+    }
+    
+    /*------- Categories Of Institution Buildings content -------*/
+    .sub-header4{
+        height: 65vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,-9,30,0.6),rgba(4,-9,30,0.6)),url(ins.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #ffff;
+    }
+    .Architect{
+        font-size: 2em;
+        color: #fff;
+        user-select: none;
+    }
+
+    .sub-header4 h1{
+        margin-top: 65px;
+        font-size: 52px;
+        text-decoration-line: underline;
+    }
+    .a{
+        text-align: justify;
+    }
+    
+    
